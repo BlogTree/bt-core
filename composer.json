@@ -19,8 +19,15 @@
         "bt\\btCore\\" : ""
     }
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/blog-tree/lib-composer-bt-installer.git"
+    }
+  ],
   "require": {
-    "php": ">=5.6.0"
+    "php": ">=5.6.0",
+    "blog-tree/lib-composer-bt-installer": "dev-master"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.6",
