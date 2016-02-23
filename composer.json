@@ -1,5 +1,5 @@
 {
-  "name": "blog-tree/btCore",
+  "name": "blog-tree/bt-core",
   "description": "Core module extension",
   "minimum-stability": "dev",
   "homepage": "http://blog-tree.com",
@@ -10,6 +10,15 @@
       "email": "zagovorichev@gmail.com"
     }
   ],
+  "type" : "bt-extension",
+	"extra" : {
+		"bt-extension-name" : "btCore"
+	},
+	"autoload" : {
+        "psr-4" : {
+            "bt\\btCore\\" : ""
+        }
+    } 
   "require": {
     "php": ">=7.1.0"
   },
