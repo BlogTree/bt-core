@@ -1,5 +1,5 @@
 {
-  "name": "blog-tree/bt-core",
+  "name": "blog-tree/btCore",
   "description": "Core module extension",
   "minimum-stability": "dev",
   "homepage": "http://blog-tree.com",
@@ -9,5 +9,12 @@
       "name": "Alexander Zagovorichev",
       "email": "zagovorichev@gmail.com"
     }
-  ]
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+    "fzaninotto/faker": "~1.6",
+    "phpunit/phpunit": "~5.0"
+  }
 }
