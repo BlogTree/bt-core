@@ -11,14 +11,14 @@
     }
   ],
   "type" : "bt-extension",
-	"extra" : {
-		"bt-extension-name" : "btCore"
-	},
-	"autoload" : {
-        "psr-4" : {
-            "bt\\btCore\\" : ""
-        }
-    } 
+  "extra" : {
+    "bt-extension-name" : "btCore"
+  },
+  "autoload" : {
+    "psr-4" : {
+        "bt\\btCore\\" : ""
+    }
+  },
   "require": {
     "php": ">=7.1.0"
   },
