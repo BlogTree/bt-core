@@ -1,5 +1,5 @@
 {
-  "name": "blog-tree/bt-core",
+  "name": "blog-tree/bt-root",
   "description": "Core module extension",
   "minimum-stability": "dev",
   "homepage": "http://blog-tree.com",
@@ -12,22 +12,22 @@
   ],
   "type" : "bt-extension",
   "extra" : {
-    "bt-extension-name" : "btCore"
+    "bt-extension-name" : "btRoot"
   },
   "autoload" : {
     "psr-4" : {
-        "bt\\btCore\\" : ""
+        "bt\\btRoot\\" : ""
     }
   },
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/blog-tree/lib-composer-bt-installer.git"
+      "url": "https://github.com/blog-tree/lib-bt-composer-installer.git"
     }
   ],
   "require": {
     "php": ">=5.6.0",
-    "blog-tree/lib-composer-bt-installer": "dev-master"
+    "blog-tree/lib-bt-composer-installer": "dev-master"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.6",
