@@ -3,7 +3,7 @@
   "description": "Core module extension",
   "minimum-stability": "dev",
   "homepage": "http://blog-tree.com",
-  "license": "GPL-2.0",
+  "license": "MIT",
   "authors": [
     {
       "name": "Alexander Zagovorichev",
