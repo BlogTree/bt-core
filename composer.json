@@ -10,6 +10,7 @@
       "email": "zagovorichev@gmail.com"
     }
   ],
+  "type" : "bt-extension",
   "extra" : {
     "bt-extension-name" : "btRoot"
   },
