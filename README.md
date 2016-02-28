@@ -1,2 +1,2 @@
-# bt-core
+# bt-root
 Blog-Tree core extension

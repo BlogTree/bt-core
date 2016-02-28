@@ -27,6 +27,7 @@
   ],
   "require": {
     "php": ">=5.6.0",
-    "blog-tree/lib-bt-branch-installer": "dev-master"
+    "blog-tree/lib-bt-branch-installer": "dev-master",
+    "slim/slim": "^3.2"
   }
 }
