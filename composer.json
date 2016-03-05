@@ -19,12 +19,6 @@
         "bt\\btRoot\\" : ""
     }
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/blog-tree/lib-bt-branch-installer.git"
-    }
-  ],
   "require": {
     "php": ">=5.6.0",
     "blog-tree/lib-bt-branch-installer": "dev-master",
