@@ -1,7 +1,7 @@
-module.exports = (grunt) ->
-  'use strict';
-  
-  ###This file launch tasks, defined in bt-extension*/resources/gulp/tools###
-  
-  rootPath = require('path').resolve('../../../../').replace('/\\/g', '/')
-  console.log rootPath
+gulp = require 'gulp'
+plugins = require('gulp-load-plugins')({pattern: '*'})
+
+
+
+gulp.task 'default', ->
+  console.log 'default'
