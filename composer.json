@@ -22,7 +22,6 @@
   "require": {
     "php": ">=5.6.0",
     "blog-tree/lib-bt-branch-installer": "dev-master",
-    "slim/slim": "^3.2",
-    "symfony/console":"dev-master"
+    "blog-tree/lib-bt-kernel": "dev-master"
   }
 }
